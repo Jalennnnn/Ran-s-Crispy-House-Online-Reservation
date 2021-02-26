@@ -1,0 +1,41 @@
+
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="../demo/stylesignin.css">
+        <title>Ran's Crispy House Online Reservation</title>
+    </head>
+    <body>
+        <div id="login_div" class="main-div">
+            <h3>Ran's Crispy House Online Reservation</h3>
+            <input type="email" placeholder="Email" id="email_field">
+            <input type="password" placeholder="Password" id="password_field">
+            <button onclick="Login()">Login</button>
+        </div>
+        <div id="user_div" class="loggedin-div">
+            <h3>Welcome User</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit ipsam voluptate ab quasi maiores impedit provident fugiat praesentium neque, sunt molestiae facere iusto blanditiis, fuga sed corporis saepe porro dolore.</p>
+            <button>Logout</button>
+        </div>
+
+                        <!-- The core Firebase JS SDK is always required and must be listed first -->
+        <script src="https://www.gstatic.com/firebasejs/8.2.3/firebase-app.js"></script>
+
+        <script>
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        var firebaseConfig = {
+            apiKey: "AIzaSyA8QAvOzEHaiN7TE3gTPGMAOelopWkLsA4",
+            authDomain: "coen3463-t14m3-3ac04.firebaseapp.com",
+            projectId: "coen3463-t14m3-3ac04",
+            storageBucket: "coen3463-t14m3-3ac04.appspot.com",
+            messagingSenderId: "360357805917",
+            appId: "1:360357805917:web:b18e84b4d011d1b75e32b4",
+            measurementId: "G-65ZG7Y0097"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+        </script>
+        <script src="../js/login.js"></script>
+
+    </body>
+</html>
